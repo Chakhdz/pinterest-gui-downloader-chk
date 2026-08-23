@@ -8,8 +8,6 @@ This repository is a **standalone public copy** (not a GitHub fork), so it can s
 
 **Name:** Pinterest GUI Downloader (CHK). Search: `pinterest gui downloader`, `pinterest downloader mac`.
 
-Longer write-up: [BLOG.md](BLOG.md).
-
 ## Why this GUI
 
 1. **Wizard, not a terminal.** Paste a board or pin, pick a folder, press Next.
