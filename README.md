@@ -8,11 +8,15 @@ This repository is a **standalone public copy** (not a GitHub fork), so it can s
 
 **Name:** Pinterest GUI Downloader (CHK). Search: `pinterest gui downloader`, `pinterest downloader mac`.
 
+Longer write-up: [BLOG.md](BLOG.md).
+
 ## Why this GUI
 
 1. **Wizard, not a terminal.** Paste a board or pin, pick a folder, press Next.
 2. **English or Spanish in one tap.** EN / ES on the red bar. The last language is saved.
 3. **It watches the link and the folder.** Checks the URL, remembers the last folder, shows progress, then opens the destination.
+
+**Bonus: the link is ok.** After you paste, a **✓** means the text looks like a Pinterest board, section, or pin. A **?** is a guess. An error means fix the URL before you download. Format check only, not a live board fetch.
 
 ## Who
 
