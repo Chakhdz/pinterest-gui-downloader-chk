@@ -11,10 +11,12 @@ This repository is a **standalone public copy** (not a GitHub fork), so it can s
 ## Why this GUI
 
 1. **Wizard, not a terminal.** Paste a board or pin, pick a folder, press Next.
-2. **English or Spanish in one tap.** EN / ES on the red bar. The last language is saved.
-3. **It watches the link and the folder.** Checks the URL, remembers the last folder, shows progress, then opens the destination.
+2. **Progress, then the folder.** It watches the download, remembers the last folder, then opens the destination.
+3. **The link is ok.** After you paste, a **✓** means the text looks like a Pinterest board, section, or pin. A **?** is a guess. An error means fix the URL before you download. Format check only, not a live board fetch.
 
-**Bonus: the link is ok.** After you paste, a **✓** means the text looks like a Pinterest board, section, or pin. A **?** is a guess. An error means fix the URL before you download. Format check only, not a live board fetch.
+![Wizard, not a terminal](docs/benefit-pinterest-wizard.png)
+![Progress, then the folder](docs/benefit-pinterest-progress.png)
+![The link is ok](docs/benefit-pinterest-link-check.png)
 
 ## Who
 
