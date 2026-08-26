@@ -5,3 +5,4 @@ requests
 termcolor
 pysocks
 fake-useragent
+pinterest-dl
