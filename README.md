@@ -1,24 +1,65 @@
-# Pinterest GUI Downloader
+<h1 align="center">Pinterest GUI Downloader</h1>
 
-Desktop **Pinterest GUI Downloader** for Mac and Windows (Tk). Not the original CLI-only project.
+<p align="center"><strong>A desktop window for downloading Pinterest boards, sections, and pins. Mac and Windows (Tk).</strong></p>
 
-Based on [limkokhole/pinterest-downloader](https://github.com/limkokhole/pinterest-downloader) (MIT, © 2020 limkokhole@gmail.com). That repo is the engine. This one is the window.
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
+</p>
 
-This repository is a **standalone public copy** (not a GitHub fork), so it can stay public. The engine file matches limkokhole (`pinterest-downloader.py` SHA `7b2765bb`).
+<p align="center">
+  <a href="#open">Open</a> &nbsp;·&nbsp;
+  <a href="#what-problem-does-this-repo-solve">Problem</a> &nbsp;·&nbsp;
+  <a href="#3-top-things-you-can-do-with-this-repo">3 top things</a> &nbsp;·&nbsp;
+  <a href="#credits">Credits</a>
+</p>
 
-**Name:** Pinterest GUI Downloader (CHK). Search: `pinterest gui downloader`, `pinterest downloader mac`.
+---
 
-## Why this GUI
+## What problem does this repo solve?
 
-1. **Wizard, not a terminal.** Paste a board or pin, pick a folder, press Next.
-2. **Progress, then the folder.** It watches the download, remembers the last folder, then opens the destination.
-3. **The link is ok.** After you paste, a **✓** means the text looks like a Pinterest board, section, or pin. A **?** is a guess. An error means fix the URL before you download. Format check only, not a live board fetch.
+The original project is a **terminal**. You should not have to paste a board URL into a CLI to get the pictures off it. This repo is the **window**: paste a board, section, or pin, pick a folder, press Next.
 
-![Wizard, not a terminal](docs/benefit-pinterest-wizard.png)
-![Progress, then the folder](docs/benefit-pinterest-progress.png)
-![The link is ok](docs/benefit-pinterest-link-check.png)
+> This is not [limkokhole/pinterest-downloader](https://github.com/limkokhole/pinterest-downloader). That repo is the engine. This one is the GUI.
 
-## Who
+---
+
+## 3 top things you can do with this repo
+
+1. **Paste, pick a folder, Next.** Wizard, not a terminal.
+2. **Watch the download, then land in the folder.** It remembers the last folder and opens the destination.
+3. **See if the link looks right before you run it.** A **✓** means the text looks like a Pinterest board, section, or pin. A **?** is a guess. An error means fix the URL first. Format check only, not a live board fetch.
+
+<div align="center">
+  <img src="docs/benefit-pinterest-wizard.png" alt="Wizard: paste a board or pin, pick a folder, press Next">
+</div>
+
+> **Wizard, not a terminal.** Paste a board or pin, pick a folder, press Next.
+
+<div align="center">
+  <img src="docs/benefit-pinterest-progress.png" alt="Progress view, then the destination folder">
+</div>
+
+> **Progress, then the folder.** It watches the download, remembers the last folder, then opens the destination.
+
+<div align="center">
+  <img src="docs/benefit-pinterest-link-check.png" alt="Link check: check, question mark, or error on the pasted URL">
+</div>
+
+> **The link is ok.** Format check only, not a live board fetch.
+
+---
+
+## Open
+
+Mac: `PINDOWNLOADER.command` (runs `python3 pinterest_gui.py`).
+
+Windows: `PINDOWNLOADER.bat`. If Python is missing, it tells you. More on Windows: [LEEME_WINDOWS.md](LEEME_WINDOWS.md).
+
+Do not commit `images/`.
+
+---
+
+## Credits
 
 **CHK** (Carlos Chak Hernández) is a freelance illustrator and visual storyteller in Colima, Mexico. He holds an MA in Mexican Art History, is a doctoral researcher, and works on visual culture, prehispanic art, and museums. He teaches at FAyD, Universidad de Colima.
 
@@ -29,6 +70,17 @@ This repository is a **standalone public copy** (not a GitHub fork), so it can s
 
 See [CREDITS.md](CREDITS.md).
 
-## Open
+<details>
+<summary>Name, search, standalone copy</summary>
 
-Mac: `PINDOWNLOADER.command`. Windows: `PINDOWNLOADER.bat`. Do not commit `images/`.
+**Name:** Pinterest GUI Downloader (CHK). Search: `pinterest gui downloader`, `pinterest downloader mac`.
+
+This repository is a **standalone public copy** (not a GitHub fork), so it can stay public. The engine file matches limkokhole (`pinterest-downloader.py` SHA `7b2765bb`).
+
+</details>
+
+---
+
+## License
+
+MIT. Engine copyright (c) 2020 limkokhole@gmail.com. See [LICENSE](LICENSE).
