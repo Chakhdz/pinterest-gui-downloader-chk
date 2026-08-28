@@ -92,9 +92,13 @@ jobs:
           If SmartScreen says Windows protected your PC, choose More info, then Run anyway (unsigned build).
           "@
 
+          # Display label keeps spaces. GitHub's Releases API still stores the
+          # asset name with periods (Pinterest.Downloader.CHK.exe) — that is
+          # platform behavior, not a BUILD/PINDOWNLOADER rename.
+          $asset = "$exe#Pinterest Downloader CHK.exe"
           gh release view $tag 1>$null 2>$null
           if ($LASTEXITCODE -eq 0) {
-            gh release upload $tag --clobber $exe
+            gh release upload $tag --clobber $asset
           } else {
-            gh release create $tag $exe --title $title --notes $notes --target $env:GITHUB_SHA
+            gh release create $tag $asset --title $title --notes $notes --target $env:GITHUB_SHA
           }
