@@ -1,14 +1,17 @@
 @echo off
 setlocal
-title Generando PINDOWNLOADER.exe
+title Installing Pinterest Downloader CHK
 cd /d "%~dp0"
 
 echo ============================================================
-echo   Generador del ejecutable de Pinterest Downloader (Windows)
+echo   This file INSTALLS. Run it ONCE.
+echo   To OPEN the app afterwards, double-click
+echo   "Pinterest Downloader CHK.exe" - not this bat.
 echo ============================================================
 echo.
-echo Este script se ejecuta UNA SOLA VEZ (o cuando quieras actualizar
-echo la app) y deja un archivo PINDOWNLOADER.exe en esta carpeta.
+echo Este instalador se ejecuta UNA SOLA VEZ (o cuando quieras
+echo actualizar la app). Genera "Pinterest Downloader CHK.exe"
+echo en esta carpeta. Despues de instalar, abre ESE .exe.
 echo Requiere conexion a internet (descarga pyinstaller y pinterest-dl).
 echo.
 
@@ -44,7 +47,7 @@ echo [2/3] Generando el ejecutable (puede tardar 1-2 minutos)...
     --noconfirm ^
     --onefile ^
     --windowed ^
-    --name PINDOWNLOADER ^
+    --name "Pinterest Downloader CHK" ^
     --collect-all pinterest_dl ^
     --collect-all m3u8 ^
     pinterest_gui.py
@@ -56,14 +59,15 @@ if errorlevel 1 (
 )
 
 echo.
-echo [3/3] Copiando PINDOWNLOADER.exe a esta carpeta...
-copy /y "dist\PINDOWNLOADER.exe" "PINDOWNLOADER.exe" >nul
+echo [3/3] Copiando "Pinterest Downloader CHK.exe" a esta carpeta...
+copy /y "dist\Pinterest Downloader CHK.exe" "Pinterest Downloader CHK.exe" >nul
 
 echo.
 echo ============================================================
-echo   Listo. Ya puedes usar PINDOWNLOADER.exe (doble click).
-echo   Puedes borrar las carpetas "build" y "dist" y el archivo
-echo   PINDOWNLOADER.spec si quieres dejar la carpeta mas limpia.
+echo   Listo. To OPEN the app, double-click
+echo   "Pinterest Downloader CHK.exe" - not this installer.
+echo   Puedes borrar las carpetas "build" y "dist" (compiler junk,
+echo   not the app) y el .spec si quieres dejar la carpeta mas limpia.
 echo ============================================================
 echo.
 pause

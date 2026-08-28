@@ -1,4 +1,4 @@
-<h1 align="center">Pinterest GUI Downloader</h1>
+<h1 align="center">Pinterest Downloader CHK</h1>
 
 <p align="center"><strong>A desktop window for downloading Pinterest boards, sections, and pins. Mac and Windows (Tk).</strong></p>
 
@@ -51,9 +51,13 @@ The original project is a **terminal**. You should not have to paste a board URL
 
 ## Open
 
-Mac: `PINDOWNLOADER.command` (runs `python3 pinterest_gui.py`).
+To open the app, double-click `Pinterest Downloader CHK.command` (Mac) or `Pinterest Downloader CHK.exe` (Windows).
 
-Windows: `PINDOWNLOADER.bat`. If Python is missing, it tells you. More on Windows: [LEEME_WINDOWS.md](LEEME_WINDOWS.md).
+To install on Windows once (needs Python), double-click `Install Pinterest Downloader CHK.bat`.
+
+Mac: `Pinterest Downloader CHK.command` (runs `python3 pinterest_gui.py`).
+
+Windows: if you already have Python and no `.exe` yet, `Pinterest Downloader CHK.bat`. If Python is missing, it tells you. More on Windows: [LEEME_WINDOWS.md](LEEME_WINDOWS.md).
 
 Do not commit `images/`.
 
@@ -66,14 +70,14 @@ Do not commit `images/`.
 [chakhernandez.art](https://www.chakhernandez.art) · [Chakhdz](https://github.com/Chakhdz)
 
 - Engine: limkokhole — `pinterest-downloader.py`
-- GUI: CHK — `pinterest_gui.py`, `PINDOWNLOADER.command`
+- GUI: CHK — `pinterest_gui.py`, `Pinterest Downloader CHK.command`
 
 See [CREDITS.md](CREDITS.md).
 
 <details>
 <summary>Name, search, standalone copy</summary>
 
-**Name:** Pinterest GUI Downloader (CHK). Search: `pinterest gui downloader`, `pinterest downloader mac`.
+**Name:** Pinterest Downloader CHK. Search: `pinterest downloader chk`, `pinterest downloader mac`.
 
 This repository is a **standalone public copy** (not a GitHub fork), so it can stay public. The engine file matches limkokhole (`pinterest-downloader.py` SHA `7b2765bb`).
 
