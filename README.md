@@ -51,13 +51,14 @@ The original project is a **terminal**. You should not have to paste a board URL
 
 ## Open
 
-To open the app, double-click `Pinterest Downloader CHK.command` (Mac) or `Pinterest Downloader CHK.exe` (Windows).
+To open the app:
 
-To install on Windows once (needs Python), double-click `Install Pinterest Downloader CHK.bat`.
+- **Windows (no Python):** download [`Pinterest Downloader CHK.exe`](https://github.com/Chakhdz/pinterest-gui-downloader-chk/releases) from [GitHub Releases](https://github.com/Chakhdz/pinterest-gui-downloader-chk/releases) and double-click it.
+- **Mac:** double-click `Pinterest Downloader CHK.command` (needs Python; runs `python3 pinterest_gui.py`).
 
-Mac: `Pinterest Downloader CHK.command` (runs `python3 pinterest_gui.py`).
+To install on Windows once if you already have Python and want to rebuild the `.exe` locally, double-click `Install Pinterest Downloader CHK.bat`. Then open `Pinterest Downloader CHK.exe`.
 
-Windows: if you already have Python and no `.exe` yet, `Pinterest Downloader CHK.bat`. If Python is missing, it tells you. More on Windows: [LEEME_WINDOWS.md](LEEME_WINDOWS.md).
+Windows: if you already have Python and no `.exe` yet, `Pinterest Downloader CHK.bat` also opens the app. If Python is missing, it tells you. More on Windows: [LEEME_WINDOWS.md](LEEME_WINDOWS.md).
 
 Do not commit `images/`.
 
