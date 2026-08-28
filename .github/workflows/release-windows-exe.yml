@@ -40,11 +40,25 @@ jobs:
         shell: cmd
         run: |
           python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt pyinstaller pinterest-dl
+          python -m pip install -r requirements.txt pyinstaller pinterest-dl pillow
+
+      - name: Convert icon.png to icon.ico
+        shell: pwsh
+        run: |
+          $png = Join-Path $env:GITHUB_WORKSPACE "icon.png"
+          $ico = Join-Path $env:GITHUB_WORKSPACE "icon.ico"
+          if (-not (Test-Path -LiteralPath $png)) {
+            throw "Expected icon.png at repo root (CHK P on red; not the official Pinterest logo)."
+          }
+          python -c "from PIL import Image; im=Image.open(r'icon.png').convert('RGBA'); im.save(r'icon.ico', format='ICO', sizes=[(256,256),(128,128),(64,64),(48,48),(32,32),(16,16)])"
+          if (-not (Test-Path -LiteralPath $ico)) {
+            throw "Failed to write icon.ico from icon.png"
+          }
+          Get-Item -LiteralPath $ico | Select-Object FullName, Length
 
       - name: Build Windows exe
         shell: cmd
-        run: python -m PyInstaller --noconfirm --onefile --windowed --name "Pinterest Downloader CHK" --collect-all pinterest_dl --collect-all m3u8 pinterest_gui.py
+        run: python -m PyInstaller --noconfirm --onefile --windowed --name "Pinterest Downloader CHK" --icon icon.ico --collect-all pinterest_dl --collect-all m3u8 pinterest_gui.py
 
       - name: Verify exe filename
         shell: pwsh
