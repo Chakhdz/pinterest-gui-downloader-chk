@@ -1,0 +1,2 @@
+Double-click `Pinterest Downloader CHK.command`. Needs Python 3.
+Doble clic en `Pinterest Downloader CHK.command`. Necesita Python 3.

@@ -1,8 +1,12 @@
 # Pinterest Downloader CHK — Version Windows
 
-To open the app, double-click `Pinterest Downloader CHK.command` (Mac) or `Pinterest Downloader CHK.exe` (Windows).
+This folder is **`PARA WIN`**. Mac users: open **`PARA MAC`**.
 
-To install on Windows once (needs Python), double-click `Install Pinterest Downloader CHK.bat`.
+**Without Python:** download the Release exe https://github.com/Chakhdz/pinterest-gui-downloader-chk/releases/tag/v1.0.0
+
+**With Python:** double-click `Pinterest Downloader CHK.bat` to **OPEN** the app.
+
+`Install Pinterest Downloader CHK.bat` is the **installer** — run once.
 
 Hay dos formas de usar la app en Windows. Elige una. Primero **abrir**; el instalador va despues.
 
@@ -22,9 +26,9 @@ Hay dos formas de usar la app en Windows. Elige una. Primero **abrir**; el insta
 3. Cuando termine, va a quedar **`Pinterest Downloader CHK.exe`** en esta misma
    carpeta. Ese es el ejecutable final: doble click para **abrir** la app.
    Ya no depende de que el instalador se vuelva a correr.
-4. (Opcional) borra las carpetas `build` y `dist` (basura del compilador,
-   no son la app) y el `.spec` que quedan del proceso; no se necesitan para usar
-   el .exe.
+4. (Opcional) borra las carpetas `build` y `dist` (basura del compilador
+   en la raiz del repo, no son la app) y el `.spec` que quedan del proceso;
+   no se necesitan para usar el .exe.
 
 Si Windows Defender/SmartScreen se queja la primera vez que abres el .exe
 ("Windows protegio tu PC"), es normal en ejecutables nuevos sin firma
@@ -55,11 +59,11 @@ pidiendo instalar `pinterest-dl`:
 
 ## Si algo no abre
 
-- Si aparece "No se encontro Python instalado", revisa el paso de
-  Requisito de arriba (falta marcar "Add python.exe to PATH"), o usa el
-  `.exe` si ya lo generaste.
+- Si aparece "No se encontro Python instalado", descarga el exe de
+  [Releases v1.0.0](https://github.com/Chakhdz/pinterest-gui-downloader-chk/releases/tag/v1.0.0),
+  o revisa el paso de Requisito de arriba (falta marcar "Add python.exe to PATH").
 - Tambien puedes abrir la app a mano: abre "Simbolo del sistema" (cmd) en
-  esta carpeta y escribe:
+  la raiz del repo (la carpeta padre de `PARA WIN`) y escribe:
 
       python pinterest_gui.py
 

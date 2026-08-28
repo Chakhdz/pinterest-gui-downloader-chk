@@ -51,14 +51,15 @@ The original project is a **terminal**. You should not have to paste a board URL
 
 ## Open
 
-To open the app:
+Open the folder for your OS: **`PARA MAC`** or **`PARA WIN`**.
 
-- **Windows (no Python):** download [`Pinterest Downloader CHK.exe`](https://github.com/Chakhdz/pinterest-gui-downloader-chk/releases) from [GitHub Releases](https://github.com/Chakhdz/pinterest-gui-downloader-chk/releases) and double-click it.
-- **Mac:** double-click `Pinterest Downloader CHK.command` (needs Python; runs `python3 pinterest_gui.py`).
+- **Windows (no Python):** download [`Pinterest Downloader CHK.exe`](https://github.com/Chakhdz/pinterest-gui-downloader-chk/releases/tag/v1.0.0) from [GitHub Releases](https://github.com/Chakhdz/pinterest-gui-downloader-chk/releases/tag/v1.0.0) and double-click it.
+- **Windows (with Python):** in `PARA WIN`, double-click `Pinterest Downloader CHK.bat` to open the app.
+- **Mac:** in `PARA MAC`, double-click `Pinterest Downloader CHK.command` (needs Python 3).
 
-To install on Windows once if you already have Python and want to rebuild the `.exe` locally, double-click `Install Pinterest Downloader CHK.bat`. Then open `Pinterest Downloader CHK.exe`.
+`Install Pinterest Downloader CHK.bat` (in `PARA WIN`) is the installer — run once if you already have Python and want to rebuild the `.exe` locally. Then open `PARA WIN/Pinterest Downloader CHK.exe`.
 
-Windows: if you already have Python and no `.exe` yet, `Pinterest Downloader CHK.bat` also opens the app. If Python is missing, it tells you. More on Windows: [LEEME_WINDOWS.md](LEEME_WINDOWS.md).
+More on Windows: [PARA WIN/LEEME_WINDOWS.md](PARA%20WIN/LEEME_WINDOWS.md).
 
 Do not commit `images/`.
 
@@ -71,7 +72,7 @@ Do not commit `images/`.
 [chakhernandez.art](https://www.chakhernandez.art) · [Chakhdz](https://github.com/Chakhdz)
 
 - Engine: limkokhole — `pinterest-downloader.py`
-- GUI: CHK — `pinterest_gui.py`, `Pinterest Downloader CHK.command`
+- GUI: CHK — `pinterest_gui.py`, `PARA MAC/Pinterest Downloader CHK.command`
 
 See [CREDITS.md](CREDITS.md).
 

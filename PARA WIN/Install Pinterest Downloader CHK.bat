@@ -1,17 +1,17 @@
 @echo off
 setlocal
 title Installing Pinterest Downloader CHK
-cd /d "%~dp0"
+cd /d "%~dp0.."
 
 echo ============================================================
 echo   This file INSTALLS. Run it ONCE.
 echo   To OPEN the app afterwards, double-click
-echo   "Pinterest Downloader CHK.exe" - not this bat.
+echo   "PARA WIN\Pinterest Downloader CHK.exe" - not this bat.
 echo ============================================================
 echo.
 echo Este instalador se ejecuta UNA SOLA VEZ (o cuando quieras
 echo actualizar la app). Genera "Pinterest Downloader CHK.exe"
-echo en esta carpeta. Despues de instalar, abre ESE .exe.
+echo en la carpeta PARA WIN. Despues de instalar, abre ESE .exe.
 echo Requiere conexion a internet (descarga pyinstaller y pinterest-dl).
 echo.
 
@@ -59,13 +59,13 @@ if errorlevel 1 (
 )
 
 echo.
-echo [3/3] Copiando "Pinterest Downloader CHK.exe" a esta carpeta...
-copy /y "dist\Pinterest Downloader CHK.exe" "Pinterest Downloader CHK.exe" >nul
+echo [3/3] Copiando "Pinterest Downloader CHK.exe" a "PARA WIN"...
+copy /y "dist\Pinterest Downloader CHK.exe" "PARA WIN\Pinterest Downloader CHK.exe" >nul
 
 echo.
 echo ============================================================
 echo   Listo. To OPEN the app, double-click
-echo   "Pinterest Downloader CHK.exe" - not this installer.
+echo   "PARA WIN\Pinterest Downloader CHK.exe" - not this installer.
 echo   Puedes borrar las carpetas "build" y "dist" (compiler junk,
 echo   not the app) y el .spec si quieres dejar la carpeta mas limpia.
 echo ============================================================
