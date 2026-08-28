@@ -511,7 +511,7 @@ class PlaceholderEntry(tk.Entry):
 class PinterestGUI(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Pinterest Visor")
+        self.title("Pinterest GUI Downloader")
         self._center_window(600, 600)
         self.resizable(False, False)
         self.configure(bg=BG)
@@ -698,7 +698,7 @@ class PinterestGUI(tk.Tk):
         icon.create_oval(1, 1, 35, 35, fill="white", outline="")
         icon.create_text(18, 19, text="P", fill=RED, font=("Helvetica", 21, "bold"))
 
-        tk.Label(row, text="Pinterest Visor", bg=RED, fg="white",
+        tk.Label(row, text="Pinterest GUI Downloader", bg=RED, fg="white",
                  font=("Helvetica", 21, "bold")).pack(side="left")
 
         self.lang_btn = tk.Label(

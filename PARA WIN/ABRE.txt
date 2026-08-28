@@ -1,0 +1,3 @@
+1. Si no tienes Python: doble click `1. Instalar (si no tienes Python).bat`
+2. El programa es `Pinterest Downloader CHK.exe`
+3. Reconstruir solo si ya tienes Python: `3. Reconstruir (solo si ya tienes Python).bat`
