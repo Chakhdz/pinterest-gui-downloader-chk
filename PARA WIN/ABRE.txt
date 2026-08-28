@@ -1,2 +1,3 @@
-EN: Without Python, download the Release exe: https://github.com/Chakhdz/pinterest-gui-downloader-chk/releases/tag/v1.0.0 — With Python, double-click "Pinterest Downloader CHK.bat" to OPEN. "Install Pinterest Downloader CHK.bat" is the installer (run once).
-ES: Sin Python, descarga el exe de Release: https://github.com/Chakhdz/pinterest-gui-downloader-chk/releases/tag/v1.0.0 — Con Python, doble clic en "Pinterest Downloader CHK.bat" para ABRIR. "Install Pinterest Downloader CHK.bat" es el instalador (una vez).
+1. Si no tienes Python: doble click `1. Instalar (si no tienes Python).exe`
+2. Si ya tienes Python: doble click `2. Ejecutable - Pinterest Downloader CHK.bat`
+3. No abras 3 a menos que ya tengas Python y quieras reconstruir.
