@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="#open">Open</a> &nbsp;·&nbsp;
+  <a href="#para-clase-español">Para clase</a> &nbsp;·&nbsp;
   <a href="#what-problem-does-this-repo-solve">Problem</a> &nbsp;·&nbsp;
   <a href="#3-top-things-you-can-do-with-this-repo">3 top things</a> &nbsp;·&nbsp;
   <a href="#credits">Credits</a>
@@ -53,6 +54,34 @@ The original project is a **terminal**. You should not have to paste a board URL
 
 1. `PARA WIN`
 2. `PARA MAC`
+
+---
+
+## Para clase (español)
+
+<div align="center">
+  <img src="docs/asi-lo-bajas.png" alt="Hoja Así lo bajas: Code, Download ZIP, descomprimir">
+</div>
+
+> Esta hoja es cómo bajas el ZIP (Code, Download ZIP, descomprime).
+
+<div align="center">
+  <img src="docs/abrelo-asi.png" alt="Hoja Ábrelo así: PARA WIN, doble clic, pegar link">
+</div>
+
+> Esta hoja es cómo lo abres en Windows (PARA WIN, doble clic; SmartScreen: Más información → Ejecutar de todas formas).
+
+**Windows**
+
+1. Abre la carpeta `PARA WIN`.
+2. Doble clic en `1. Instalar (si no tienes Python).bat` o en `Pinterest Downloader CHK.exe`.
+3. Pega el link, elige carpeta, **Siguiente**, **Descargar**.
+
+No uses `3. Reconstruir`. Ese sí pide Python.
+
+**Mac**
+
+`PARA MAC`, doble clic en `1. Abrir Pinterest Downloader CHK.command`. Ahí sí hace falta Python 3. No hay .exe.
 
 ---
 
