@@ -60,27 +60,28 @@ The original project is a **terminal**. You should not have to paste a board URL
 ## Para clase (español)
 
 <div align="center">
-  <img src="docs/de-cero-para-clase.png" alt="Cartel De cero. Para clase. Siete pasos en Windows, sin Python">
+  <img src="docs/asi-lo-bajas.png" alt="Hoja Así lo bajas: Code, Download ZIP, descomprimir">
 </div>
 
-> Cartel para clase: Windows sin Python, con el ZIP ya descomprimido.
+> Esta hoja es cómo bajas el ZIP (Code, Download ZIP, descomprime).
 
-Ya descomprimiste el ZIP. Sigue estos clics (no vuelvas a GitHub).
+<div align="center">
+  <img src="docs/abrelo-asi.png" alt="Hoja Ábrelo así: PARA WIN, doble clic, pegar link">
+</div>
+
+> Esta hoja es cómo lo abres en Windows (PARA WIN, doble clic; SmartScreen: Más información → Ejecutar de todas formas).
 
 **Windows**
 
 1. Abre la carpeta `PARA WIN`.
 2. Doble clic en `1. Instalar (si no tienes Python).bat` o en `Pinterest Downloader CHK.exe`.
-3. Si sale “Windows protegió tu PC”: **Más información**, luego **Ejecutar de todas formas**.
-4. En la ventana: pega el link de Pinterest, elige carpeta, **Siguiente**, **Descargar**.
-5. Las fotos quedan en esa carpeta (se abre sola).
+3. Pega el link, elige carpeta, **Siguiente**, **Descargar**.
 
 No uses `3. Reconstruir`. Ese sí pide Python.
 
 **Mac**
 
-1. Abre la carpeta `PARA MAC`.
-2. Doble clic en `1. Abrir Pinterest Downloader CHK.command` (hace falta Python 3; no hay .exe).
+`PARA MAC`, doble clic en `1. Abrir Pinterest Downloader CHK.command`. Ahí sí hace falta Python 3. No hay .exe.
 
 ---
 
